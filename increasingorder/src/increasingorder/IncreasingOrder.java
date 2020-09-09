@@ -27,44 +27,44 @@ public class IncreasingOrder {
 				System.out.printf("The numbers in increasing order are: %d, %d, %d",c,b,a);
 			}			
 		}
-		if(b>a && b>c) {
+		else if(b>a && b>c) {
 			if(a>c) {
 				System.out.printf("The numbers in increasing order are: %d, %d, %d",c,a,b);
 			}
 		} 
-		if(b>a && b>c) {
+		else if(b>a && b>c) {
 			if(c>a) {
 				System.out.printf("The numbers in increasing order are: %d, %d, %d",a,c,b);
 			}
 		}
-		if(a>b && a>c) {
+		else if(a>b && a>c) {
 			if(c>b) {
 				System.out.printf("The numbers in increasing order are: %d, %d, %d",b,c,a);
 			}
 		} 
-		if(c>a && c>b) {
+		else if(c>a && c>b) {
 			if(a>b) {
 				System.out.printf("The numbers in increasing order are: %d, %d, %d",b,a,c);
 			}
 		} 
-		if(c>a && c>b) {
+		else if(c>a && c>b) {
 			if(b>a) {
 			System.out.printf("The numbers in increasing order are: %d, %d, %d",a,b,c);
 			}
 		}
-		if(a==b & a>c) {
+		else if(a==b & a>c) {
 			System.out.printf("The numbers in increasing order are: %d, %d, %d",c,a,b);	
 			}
-		if(a==b & a<c) {
+		else if(a==b & a<c) {
 			System.out.printf("The numbers in increasing order are: %d, %d, %d",a,b,c);	
 			}
-		if(b==c & b>a) {
+		else if(b==c & b>a) {
 			System.out.printf("The numbers in increasing order are: %d, %d, %d",a,b,c);	
 			}
-		if(b==c & b<a) {
+		else if(b==c & b<a) {
 			System.out.printf("The numbers in increasing order are: %d, %d, %d",b,c,a);	
 			}
-		if(b==c & b==a) {
+		else {
 			System.out.printf("The numbers in increasing order are: %d, %d, %d",a,b,c);	
 			}
 		kb.close();
