@@ -29,6 +29,9 @@ public class IdadeContador {
  * 1 mês = 30 dias	
  * Conversão da idade será feita */
 		
+		
+		//test new branch and stuff
+		
 		Calendar data = Calendar.getInstance();
 		dataNasc = idadeAno*360 + idadeMes*30 + idadeDia;
 		dataAtual = (data.get(Calendar.YEAR))*360 + (data.get(Calendar.MONTH))*30 + data.get(Calendar.DATE);
